@@ -1,18 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login01"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
     tools:context="mx.org.uneac.uneac.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <!--ARRIBA: Uso los padding para dejar un margen en los costados de la pantalla-->
 
-</android.support.constraint.ConstraintLayout>
+
+    <!--Estoy insertando una imagen, será la que aparecerá en el login (estático)-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="223dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logoune"
+
+        />
+
+    <!--La propiedad "hint" es el Texto que aparece dentro del input text
+    Este es mi campo para introducir usuario-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Correo electrónico"
+        android:inputType="text"
+
+        />
+
+
+    <!--Campo para introducir contraseña-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Contraseña"
+        android:inputType="textPassword|numberPassword" />
+
+
+    <!--Leyenda por si no quieres registrarte-->
+    <TextView
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Si deseas visualizar los proyectos \n registrados, pulsa el boton Acceder."
+        android:textSize="20sp" />
+
+
+    <!--Botón Acceder-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Acceder" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Registrarse"
+        android:textSize="20sp"
+
+        />
+
+
+</LinearLayout>
