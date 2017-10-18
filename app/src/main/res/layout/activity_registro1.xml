@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    tools:context="mx.org.uneac.uneac.registro1" >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:src="@drawable/logoune"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/tiposInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+    <ImageView
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:gravity = "left"
+            android:src="@drawable/logoFB"/>
+
+    <!--Espacio entre botones-->
+    <TextView
+        android:layout_width="12dp"
+        android:layout_height="2dp"
+        />
+
+    <ImageView
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:gravity="center"
+            android:src="@drawable/logoGM" />
+
+
+    <!--Espacio entre botones-->
+    <TextView
+            android:layout_width="12dp"
+            android:layout_height="2dp"
+            />
+
+
+    <ImageView
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:gravity="right"
+            android:src="@drawable/logoEM"
+                />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:hint="Acceder"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Método de registro"
+        />
+
+
+</LinearLayout>
