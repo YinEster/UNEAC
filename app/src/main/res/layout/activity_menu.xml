@@ -9,6 +9,7 @@
     android:orientation="vertical"
     tools:context="mx.org.uneac.uneac.menu">
 
+    <!--difícil-->
     <!-- Este sería el título en caso de no ponerlo en el banner principal-->
 
     <LinearLayout
