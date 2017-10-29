@@ -64,6 +64,7 @@
             />
 
         <EditText
+            android:id="@+id/ET_nomACR3"
             style="@android:style/Widget.DeviceDefault.EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -82,6 +83,7 @@
             />
 
         <EditText
+            android:id="@+id/ET_emailACR3"
             style="@android:style/Widget.DeviceDefault.EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -99,6 +101,7 @@
             />
 
         <EditText
+            android:id="@+id/ET_respACR3"
             style="@android:style/Widget.DeviceDefault.EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -117,6 +120,7 @@
             />
 
         <EditText
+            android:id="@+id/ET_dirACR3"
             style="@android:style/Widget.DeviceDefault.EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -136,6 +140,7 @@
 
 
         <EditText
+            android:id="@+id/ET_telACR3"
             style="@android:style/Widget.DeviceDefault.EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -153,6 +158,7 @@
             android:textSize="19dp" />
 
         <EditText
+            android:id="@+id/ET_objACR3"
             style="@android:style/Widget.DeviceDefault.EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -163,7 +169,7 @@
 
         <!--Botón Acceder-->
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonR3"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_margin="13dp"

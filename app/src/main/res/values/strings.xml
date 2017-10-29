@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">UNE A.C.</string>
-    <string name="registo1">REGISTRO USUARIO</string>
+    <string name="titulopersonalizado"> Registro2 </string>
+    //aún no logro que funcione X'D
+
 </resources>

@@ -26,6 +26,7 @@
     Este es mi campo para introducir usuario-->
 
     <EditText
+        android:id="@+id/ET_emailIngresar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -37,6 +38,7 @@
 
     <!--Campo para introducir contraseña-->
     <EditText
+        android:id="@+id/ET_passIngresar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -58,13 +60,14 @@
 
     <!--Botón Acceder-->
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonAccederMain"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Acceder" />
 
     <TextView
+        android:id="@+id/TV_registrarseMain"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"

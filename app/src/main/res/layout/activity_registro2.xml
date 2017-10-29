@@ -50,6 +50,7 @@
         />
 
     <EditText
+        android:id="@+id/ET_emailR2"
         style="@android:style/Widget.DeviceDefault.EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -68,6 +69,7 @@
         />
 
     <EditText
+        android:id="@+id/ET_usuarioR2"
         style="@android:style/Widget.DeviceDefault.EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -85,6 +87,7 @@
         />
 
     <EditText
+        android:id="@+id/ET_fechaNacR2"
         style="@android:style/Widget.DeviceDefault.EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -103,6 +106,7 @@
         />
 
     <EditText
+        android:id="@+id/ET_passR2"
         style="@android:style/Widget.DeviceDefault.EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -120,6 +124,7 @@
         />
 
     <EditText
+        android:id="@+id/ET_repPassR2"
         style="@android:style/Widget.DeviceDefault.EditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -129,7 +134,7 @@
 
     <!--Botón Acceder-->
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonR2"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_margin="13dp"

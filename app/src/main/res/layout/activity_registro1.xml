@@ -29,35 +29,28 @@
 
 
     <ImageView
+            android:id="@+id/opcionFB"
             android:layout_width="66dp"
             android:layout_height="66dp"
             android:gravity = "left"
             android:src="@drawable/logofacebook"/>
 
-    <!--Espacio entre botones-->
-    <TextView
-        android:layout_width="12dp"
-        android:layout_height="2dp"
-        />
+    <!--Espacio entre botones lo hago con layoutMargin-->
 
     <ImageView
+            android:id="@+id/opcionGM"
             android:layout_width="66dp"
             android:layout_height="66dp"
             android:gravity="center"
+            android:layout_marginLeft="10dp"
             android:src="@drawable/logogmail" />
 
-
-    <!--Espacio entre botones-->
-    <TextView
-            android:layout_width="12dp"
-            android:layout_height="2dp"
-            />
-
-
     <ImageView
+            android:id="@+id/opcionEM"
             android:layout_width="66dp"
             android:layout_height="66dp"
             android:gravity="right"
+            android:layout_marginLeft="10dp"
             android:src="@drawable/logoemail"
                 />
 
@@ -92,6 +85,7 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/buttonR1"
             android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:hint="Acceder" />
