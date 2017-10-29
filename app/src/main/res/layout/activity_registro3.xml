@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registro2_ac"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="mx.org.uneac.uneac.MainActivity">
+<!-- Este sería el título en caso de no ponerlo en el banner principal-->
+    <LinearLayout
+        android:id="@+id/registroAC"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingTop="10dp"
+        android:text="REGISTRO A.C."
+        android:textColor="?attr/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="2/2"/>
+
+    </LinearLayout>
+
+
+    <!-- ACÁ INICIA MI SCROLL BAR-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- Obligatoriamente después de un scrollview debe ir un LinearLayout, de otra forma no funciona el scrollBar-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <!--Acá inicia mi formulario-->
+        <!-- Campo razón social-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="10dp"
+            android:text="Nombre o razón social"
+            />
+
+        <EditText
+            style="@android:style/Widget.DeviceDefault.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Introduce el nombre de tu A.C."
+            android:inputType="text|number" />
+
+
+
+        <!-- Campo Email-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="13dp"
+            android:text="Dirección de correo electrónico"
+            />
+
+        <EditText
+            style="@android:style/Widget.DeviceDefault.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="correoAC@ejemplo.com"
+            android:inputType="textEmailAddress" />
+
+
+        <!-- Campo Responsable-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="13dp"
+            android:text="Responsable"
+            />
+
+        <EditText
+            style="@android:style/Widget.DeviceDefault.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del responsable de la A.C."
+            android:inputType="textPersonName" />
+
+
+
+        <!-- Campo Dirección-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="13dp"
+            android:text="Dirección"
+            />
+
+        <EditText
+            style="@android:style/Widget.DeviceDefault.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dirección de la A.C."
+            android:inputType="textPostalAddress" />
+
+
+
+        <!-- Campo Teléfono-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:layout_marginTop="13dp"
+            android:text="Teléfono"
+            />
+
+
+        <EditText
+            style="@android:style/Widget.DeviceDefault.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono de la A.C."
+            android:inputType="phone" />
+
+
+        <!-- Campo Objetivo-->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text="Objetivo de la A.C."
+            android:textSize="19dp" />
+
+        <EditText
+            style="@android:style/Widget.DeviceDefault.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Describe brevemente tu A.C."
+            android:inputType="text|number" />
+
+
+
+        <!--Botón Acceder-->
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="13dp"
+            android:layout_gravity="right"
+            android:text="Continuar" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -24,6 +24,7 @@
 
     <!--La propiedad "hint" es el Texto que aparece dentro del input text
     Este es mi campo para introducir usuario-->
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
