@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:hint="Contraseña"
-        android:inputType="textPassword|numberPassword" />
+        android:inputType="textPassword" />
 
 
     <!--Leyenda por si no quieres registrarte-->
